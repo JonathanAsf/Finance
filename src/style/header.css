@@ -1,0 +1,37 @@
+@import url(./global.css);
+
+header{
+    justify-content: center;
+}
+
+.container {
+    padding: 0 197px;
+    display: flex;
+    background-color: rgb(131, 130, 130);
+    align-items: center;
+    height: 91px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {
+    display: flex;
+    font-family: Arial, Helvetica, sans-serif;
+    color: var(--color-light-text-color);
+    padding-right: 76px;
+}
+
+nav {
+    display: flex;
+    gap: 21px;
+    padding-right: 235px;
+    
+}
+
+nav a{
+    color: var(--color-light-text-color);
+}
+
+.buttons {
+    display: flex;
+    gap: 45px ;
+}
