@@ -1,22 +1,38 @@
 * {
   margin: 0;
   padding: 0;
-  border:none;
+  border: none;
   box-sizing: border-box;
   text-decoration: none;
+}
+
+body {
+  font-family: "Montserrat", sans-serif;
 }
 
 :root {
   --color-primary-color: #23a6f0;
   --color-secondary-color-1: #40bb15;
   --color-secondary-color-2: #3c403d;
-  --color-light-text-color:#fff;
-  --color-background-gradient-1:  background: linear-gradient(90deg #d71489, #004788);
+  --color-light-text-color: #fff;
+  --color-background-gradient-1: linear-gradient(90deg #d71489, #004788);
   --color-text-color: #252b42;
-  --color-hover-color:#2a7cc7;
-  --color-disable-element-color:#8ec2d2;
-  --color-muted-color:#bdbdbd;
-  --color-sucess-color:#2dc071;
-  --color-alert-color:#e77c40;
-  --danger-color:#e74040;
+  --color-hover-color: #2a7cc7;
+  --color-disable-element-color: #8ec2d2;
+  --color-muted-color: #bdbdbd;
+  --color-sucess-color: #2dc071;
+  --color-alert-color: #e77c40;
+  --color-danger-color: #e74040;
+
+  --font-size-h1: 58px;
+  --font-size--h2: 40px;
+  --font-size--h3: 24px;
+  --font-size--h4: 20px;
+  --font-size--h5: 16px;
+  --font-size--h6: 14px;
+  --font-size--btn-text: 14px;
+  --font-size--mobile-menu: 30px;
+  --font-size--paragraph: 14px;
+  --font-size--list: 20px;
+  --font-size--link: 14px;
 }
