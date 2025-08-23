@@ -1,0 +1,22 @@
+* {
+  margin: 0;
+  padding: 0;
+  border:none;
+  box-sizing: border-box;
+  text-decoration: none;
+}
+
+:root {
+  --color-primary-color: #23a6f0;
+  --color-secondary-color-1: #40bb15;
+  --color-secondary-color-2: #3c403d;
+  --color-light-text-color:#fff;
+  --color-background-gradient-1:  background: linear-gradient(90deg #d71489, #004788);
+  --color-text-color: #252b42;
+  --color-hover-color:#2a7cc7;
+  --color-disable-element-color:#8ec2d2;
+  --color-muted-color:#bdbdbd;
+  --color-sucess-color:#2dc071;
+  --color-alert-color:#e77c40;
+  --danger-color:#e74040;
+}
