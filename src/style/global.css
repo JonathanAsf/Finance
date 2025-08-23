@@ -36,4 +36,16 @@ body {
   --font-size--paragraph: 14px;
   --font-size--list: 20px;
   --font-size--link: 14px;
+
+  --font-weight-h1:800;
+  --font-weight-h2:700;
+  --font-weight-h3:700;
+  --font-weight-h4:500;
+  --font-weight-h5:700;
+  --font-weight-h6:600;
+  --font-weight-btn-text:700;
+  --font-weight-mobile-menu:400;
+  --font-weight-paragraph:500:
+  --font-weight-list:400;
+  --font-weight-link:600;
 }
