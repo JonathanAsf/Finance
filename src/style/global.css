@@ -24,6 +24,7 @@ body {
   --color-sucess-color: #2dc071;
   --color-alert-color: #e77c40;
   --color-danger-color: #e74040;
+  --color-second-text: #737373;
 
   --font-size-h1: 58px;
   --font-size--h2: 40px;
@@ -45,7 +46,7 @@ body {
   --font-weight-h6:600;
   --font-weight-btn-text:700;
   --font-weight-mobile-menu:400;
-  --font-weight-paragraph:500:
+  --font-weight-paragraph:500;
   --font-weight-list:400;
   --font-weight-link:600;
 

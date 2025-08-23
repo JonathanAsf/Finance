@@ -1,6 +1,6 @@
 @import url(./global.css);
 
-*{
+* {
     margin: 0;
     box-sizing: border-box;
     padding: 0;
@@ -21,6 +21,15 @@
 .pricing-hero {
     text-align: center;
     width: 470px;
+}
+
+.pricing-hero h2 {
+    font-size: var(--font-size--h2);
+}
+
+.pricing-hero p {
+    color: var(--color-second-text);
+    font-size: var(--font-size--h5);
 }
 
 .pricing-cards {
@@ -44,6 +53,11 @@
     gap: 35px;
 }
 
+.pricing-pricing-card h4 {
+    color: var(--color-primary-color);
+    font-size: var(--font-size--h2);
+}
+
 .pricing-text-top-card {
     display: flex;
     flex-direction: column;
@@ -53,21 +67,39 @@
 
 .pricing-text-top-card h3 {
     font-weight: bold;
+    font-size: var(--font-size--h3);
+    color: var(--color-text-color);
     text-transform: uppercase;
 }
 
-.pricing-pricing-card{
+.pricing-text-top-card p{
+    font-size: var(--font-size--h5);
+    color: var(--color-second-text);
+}
+
+.pricing-pricing-card {
     display: flex;
     align-items: center;
     justify-content: center;
+    gap: 10px;
 }
 
-.pricing-pricing-card2{
+.pricing-pricing-card span:last-child{
+    color: var(--color-disable-element-color);
+    font-size: var(--font-size--h6);
+}
+
+.pricing-pricing-card span:first-child{
+    color: var(--color-primary-color);
+    font-size: var(--font-size--h5);
+}
+
+.pricing-pricing-card2 {
     display: flex;
     flex-direction: column;
 }
 
-.pricing-table{
+.pricing-table {
     display: flex;
     gap: 15px;
     width: 236px;
@@ -75,17 +107,28 @@
     justify-content: center;
 }
 
-.pricing-table-hero{
+.pricing-table-hero {
     display: flex;
-    gap: 1.38px;
+    gap: 10px;
     align-items: center;
 }
 
-.pricing-button{
+.pricing-table-hero{
+    color: var(--color-text-color);
+    font-size: var(--font-size--h6);
+}
+
+.pricing-button {
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: aqua;
+    background-color: var(--color-primary-color);
+    border-radius: 10px;
     padding: 15px 40px;
     height: 52px;
+}
+
+.pricing-button button a{
+   color: var(--color-light-text-color);
+   font-size: var(--font-weight-btn-text);
 }
