@@ -48,4 +48,16 @@ body {
   --font-weight-paragraph:500:
   --font-weight-list:400;
   --font-weight-link:600;
+
+  --font-line-height-h1:80;
+  --font-line-height-h2:40;
+  --font-line-height-h3:24;
+  --font-line-height-h4:20;
+  --font-line-height-h5:16;
+  --font-line-height-h6:14;
+  --font-line-height-btn-text:14;
+  --font-line-height-mobile-menu:30;
+  --font-line-height-paragraph:14;
+  --font-line-height-list:20;
+  --font-line-height-link:14;
 }
