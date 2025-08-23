@@ -34,4 +34,6 @@ nav a{
 .buttons {
     display: flex;
     gap: 45px ;
+    color: var(--color-light-text-color);
+    font-weight: bold;
 }

@@ -6,23 +6,23 @@
     text-decoration: none;
 }
 
-
 .text-title {
+    font-size: var (--font-size--h2);
+    font-weight: var (--font-weight-h2);
     text-align: center;
-    font-family: Arial, Helvetica, sans-serif;
     margin-top: 112px;
     color: black;
     font-size: 40px;
-    bottom: 10px;
-    margin-top: 120px;
+    margin-bottom: 10px;
 }
 
 .text-subtitle {
     text-align: center;
-    font-family: Arial, Helvetica, sans-serif;
     color: #737373;
     font-size: 15px;
-    bottom: 80px;
+    margin-bottom: 80px;
+    var (--font-size--h5: 16px; );
+    var (--font-weight-h5:700; );
 }
 
 .main {
@@ -45,37 +45,23 @@
     text-align: center;
 }
 
+.cards img {
+    width: 40px;
+    margin-bottom: 10px;
+}
+
 .cards h2 {
-    justify-content: center;
-    padding: 43px;
-    margin-top: 80px;
-    font-family: Arial, Helvetica, sans-serif;
+    font-size: var (--font-size--h2);
+    font-weight: var (--font-weight-h2);
     font-size: 40px;
     color: rgb(0, 0, 0);
-    margin: 0;
+    margin: 10px 0;
 }
 
 .cards h3 {
-    text-align: center;
-    justify-content: center;
-    bottom: 30px;
-    padding: 40px;
-    margin-top: 146px;
-    font-family: Arial, Helvetica, sans-serif;
+    font-size: var(--font-weight-h5);
+    font-weight: var(--font-size--h5);
     font-size: 15px;
     color: #737373;
-    margin: 5px 0 0 0;
-}
-
-.icons-cards {
-    text-align: center;
-    justify-content: center;
-    bottom: 30px;
-    padding: 40px;
-    margin-top: 146px;
-    margin: 5px 0 0 0;
-}
-
-.header-hero{
-    display: flex;
+    margin: 0;
 }
