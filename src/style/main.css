@@ -1,0 +1,54 @@
+@import url("../style/global.css");
+
+main {
+  background-color: rgba(0, 0, 0, 0.5);
+  color: var(--color-text-color);
+}
+
+.content-main {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 63px;
+}
+
+.text-main {
+  display: flex;
+  flex-direction: column;
+  width: 510px;
+  gap: 35px;
+}
+
+.text-main h2 {
+  font-size: var(--font-size-h1);
+  font-weight: var(--font-weight-h1);
+}
+
+.text-main p {
+  width: 375px;
+}
+
+.button-main {
+  display: flex;
+  gap: 10px;
+}
+
+.button-main button {
+  width: 187px;
+  height: 52px;
+  border-radius: 37px;
+}
+
+.button-main a {
+  color: var(--color-text-color);
+  font-size: var(--font-size--btn-text);
+  font-weight: var(--font-weight-btn-text);
+}
+
+.button-primary {
+  background: var(--color-primary-color);
+}
+
+.button-secondary {
+  border: 2px solid #252b42;
+}
