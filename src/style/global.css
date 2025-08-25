@@ -4,6 +4,7 @@
   border: none;
   box-sizing: border-box;
   text-decoration: none;
+  background: none;
 }
 
 body {
@@ -15,6 +16,7 @@ body {
   --color-secondary-color-1: #40bb15;
   --color-secondary-color-2: #3c403d;
   --color-light-text-color:#fff;
+
   --color-background-gradient-1: linear-gradient(90deg #d71489, #004788);
   --color-text-color: #252b42;
   --color-hover-color: #2a7cc7;
@@ -37,27 +39,27 @@ body {
   --font-size--list: 20px;
   --font-size--link: 14px;
 
-  --font-weight-h1:800;
-  --font-weight-h2:700;
-  --font-weight-h3:700;
-  --font-weight-h4:500;
-  --font-weight-h5:700;
-  --font-weight-h6:600;
-  --font-weight-btn-text:700;
-  --font-weight-mobile-menu:400;
-  --font-weight-paragraph:500;
-  --font-weight-list:400;
-  --font-weight-link:600;
+  --font-weight-h1: 800;
+  --font-weight-h2: 700;
+  --font-weight-h3: 700;
+  --font-weight-h4: 500;
+  --font-weight-h5: 700;
+  --font-weight-h6: 600;
+  --font-weight-btn-text: 700;
+  --font-weight-mobile-menu: 400;
+  --font-weight-paragraph: 500;
+  --font-weight-list: 400;
+  --font-weight-link: 600;
 
-  --font-line-height-h1:80;
-  --font-line-height-h2:40;
-  --font-line-height-h3:24;
-  --font-line-height-h4:20;
-  --font-line-height-h5:16;
-  --font-line-height-h6:14;
-  --font-line-height-btn-text:14;
-  --font-line-height-mobile-menu:30;
-  --font-line-height-paragraph:14;
-  --font-line-height-list:20;
-  --font-line-height-link:14;
+  --font-line-height-h1: 80;
+  --font-line-height-h2: 40;
+  --font-line-height-h3: 24;
+  --font-line-height-h4: 20;
+  --font-line-height-h5: 16;
+  --font-line-height-h6: 14;
+  --font-line-height-btn-text: 14;
+  --font-line-height-mobile-menu: 30;
+  --font-line-height-paragraph: 14;
+  --font-line-height-list: 20;
+  --font-line-height-link: 14;
 }
