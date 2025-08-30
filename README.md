@@ -14,7 +14,7 @@
 ┣ 📄 index.html
 ┣ 📄 README.md
 ┣ 📂src
-┣ ┣📂 styles
+┣ ┣ 📂 styles
 ┃ ┣ footer.css
 ┃ ┣ global.css
 ┃ ┣ header.css
@@ -34,19 +34,7 @@
 ┃ ┗ section-say-clients.html
 ┗ 📂 assets
 ┃ ┣ 📂image
-┃ ┃ ┣ card-item-about-us.svg
-┃ ┃ ┣ circulo-cinza.svg
-┃ ┃ ┣ circulo-verde.svg
-┃ ┃ ┣ clients-icon.svg
-┃ ┃ ┣ empty-star.svg
-┃ ┃ ┣ full-star.svg
-┃ ┃ ┣ icn settings .icn-md-2.svg
-┃ ┃ ┣ icn settings .icn-md.svg
-┃ ┃ ┣ main.svg
-┃ ┃ ┣ mapa.svg
-┃ ┃ ┣ persona-girl.svg
-┃ ┃ ┣ persona-man.svg
-┃ ┃ ┗ resumo-projeto-finance.png
+┃ ┣ ┗ (All images in project)
 ```
 
 ---
