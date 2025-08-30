@@ -93,9 +93,70 @@ main {
 /* -- Main -- */
 
 /*  Strategy*/
+.cards-better-way {
+  display: flex;
+  gap: 30px;
+}
+
+.container-better-way {
+  background-color: var(--color-light-gray-1);
+}
+
+.content-better-way {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.title-better-way {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  gap: 10px;
+  margin-bottom: 80px;
+}
+
+.title-better-way h2 {
+  font-size: var(--font-size--h2);
+  width: 450px;
+}
+
+.title-better-way p {
+  font-size: var(--font-size--paragraph);
+  color: var(--color-secondary-color-2);
+  width: 470px;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 30px 40px;
+  background-color: var(--color-light-text-color);
+  gap: 10px;
+}
+
+.card img {
+  width: 50px;
+}
+
+.card-better-way-title {
+  font-size: var(--font-size--h2);
+  color: var(--color-text-color);
+}
+
+.card-better-way-information {
+  font-size: var(--font-size--h5);
+  color: var(--color-second-text);
+}
+
 /* -- Strategy -- */
 
-/*  Clients Say*/
+/* Clients Say */
 .container-client {
   padding: 112px 0;
   display: flex;
