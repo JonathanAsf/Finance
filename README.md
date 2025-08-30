@@ -1,53 +1,12 @@
 # 🚀✅ Finance - Concluído ✅🚀
 
-• [Arquitetura de Pastas](#-arquitetura-de-pastas) \
 • [Sobre o Projeto](#-sobre-o-projeto) \
 • [Layout](#-layout) \
 • [Como executar](#-como-executar-o-projeto) \
 • [Tecnologias](#-tecnologias) \
 • [Autor](#-autor) \
+• [Arquitetura de Pastas](#-arquitetura-de-pastas) \
 • [Licença](#-licença)
-
-## 📂 Arquitetura de Pastas
-
-```md
-┣ 📄 index.html
-┣ 📄 README.md
-┣ 📂src
-┣ ┣📂 styles
-┃ ┣ footer.css
-┃ ┣ global.css
-┃ ┣ header.css
-┃ ┣ main.css
-┃ ┣ section-about-us.css
-┃ ┣ section-hero.css
-┃ ┣ section-pricing.css
-┃ ┣ section-say-clients.css
-┃ ┗ styles.css
-┣ 📂 page
-┃ ┣ footer.html
-┃ ┣ header.html
-┃ ┣ main.html
-┃ ┣ section-about-us.html
-┃ ┣ section-hero.html
-┃ ┣ section-pricing.html
-┃ ┗ section-say-clients.html
-┗ 📂 assets
-┃ ┣ 📂image
-┃ ┃ ┣ card-item-about-us.svg
-┃ ┃ ┣ circulo-cinza.svg
-┃ ┃ ┣ circulo-verde.svg
-┃ ┃ ┣ clients-icon.svg
-┃ ┃ ┣ empty-star.svg
-┃ ┃ ┣ full-star.svg
-┃ ┃ ┣ icn settings .icn-md-2.svg
-┃ ┃ ┣ icn settings .icn-md.svg
-┃ ┃ ┣ main.svg
-┃ ┃ ┣ mapa.svg
-┃ ┃ ┣ persona-girl.svg
-┃ ┃ ┣ persona-man.svg
-┃ ┃ ┗ resumo-projeto-finance.png
-```
 
 ---
 
@@ -95,6 +54,49 @@ As seguintes ferramentas foram usadas na construção do projeto:
 3. Salve as alterações e crie uma mensagem de commit contando o que você fez: `git commit -m "feature: My new feature"`
 4. Envie as suas alterações: `git push origin my-feature`
    > Caso tenha alguma dúvida confira este [guia de como contribuir no GitHub](./CONTRIBUTING.md)
+
+---
+
+## 📂 Arquitetura de Pastas
+
+```md
+┣ 📄 index.html
+┣ 📄 README.md
+┣ 📂src
+┣ ┣📂 styles
+┃ ┣ footer.css
+┃ ┣ global.css
+┃ ┣ header.css
+┃ ┣ main.css
+┃ ┣ section-about-us.css
+┃ ┣ section-hero.css
+┃ ┣ section-pricing.css
+┃ ┣ section-say-clients.css
+┃ ┗ styles.css
+┣ 📂 page
+┃ ┣ footer.html
+┃ ┣ header.html
+┃ ┣ main.html
+┃ ┣ section-about-us.html
+┃ ┣ section-hero.html
+┃ ┣ section-pricing.html
+┃ ┗ section-say-clients.html
+┗ 📂 assets
+┃ ┣ 📂image
+┃ ┃ ┣ card-item-about-us.svg
+┃ ┃ ┣ circulo-cinza.svg
+┃ ┃ ┣ circulo-verde.svg
+┃ ┃ ┣ clients-icon.svg
+┃ ┃ ┣ empty-star.svg
+┃ ┃ ┣ full-star.svg
+┃ ┃ ┣ icn settings .icn-md-2.svg
+┃ ┃ ┣ icn settings .icn-md.svg
+┃ ┃ ┣ main.svg
+┃ ┃ ┣ mapa.svg
+┃ ┃ ┣ persona-girl.svg
+┃ ┃ ┣ persona-man.svg
+┃ ┃ ┗ resumo-projeto-finance.png
+```
 
 ---
 
