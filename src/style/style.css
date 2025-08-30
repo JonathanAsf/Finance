@@ -9,19 +9,20 @@ header {
   display: flex;
   background-color: rgba(0, 0, 0, 0.5);
   align-items: center;
+  justify-content: space-around;
   height: 91px;
   font-family: Arial, Helvetica, sans-serif;
 }
 
-h1 {
-  display: flex;
-  font-family: Arial, Helvetica, sans-serif;
+.logo {
+  font-size: var(--font-size--h3);
   color: var(--color-light-text-color);
-  padding-right: 76px;
 }
 
 nav {
   display: flex;
+  font-size: var(--font-size--link);
+  font-weight: var(--font-weight-link);
   gap: 21px;
   padding-right: 235px;
 }
@@ -33,6 +34,26 @@ nav a {
 .buttons {
   display: flex;
   gap: 45px;
+}
+
+.buttons a {
+  color: var(--color-light-text-color);
+  font-size: var(--font-size--btn-text);
+  font-weight: var(--font-weight-btn-text);
+}
+
+.button-login {
+  padding: 15px 25px;
+}
+
+.button-become-member {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 15px 25px;
+  border-radius: 15px;
+  gap: 15px;
+  background-color: var(--color-primary-color);
 }
 /* Header */
 
