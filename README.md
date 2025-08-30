@@ -1,129 +1,115 @@
-# <!-- MODELO PROJETO FINALIZADO -->
-<h1 align="center"> 
-	  🚀✅ Finance - Concluído ✅🚀
-</h1>
+# 🚀✅ Finance - Concluído ✅🚀
 
-<!-- ---------------------------------------------------------------------- -->
+• [Arquitetura de Pastas](#-arquitetura-de-pastas) \
+• [Sobre o Projeto](#-sobre-o-projeto) \
+• [Layout](#-layout) \
+• [Como executar](#-como-executar-o-projeto) \
+• [Tecnologias](#-tecnologias) \
+• [Autor](#-autor) \
+• [Licença](#-licença)
 
-<!-- MODELO MENU DE NAVEGAÇÃO -->
-<p align="center">
- <a href="#-Descrição-do-entregável">Descrição do Entregável</a> •
- <a href="#-sobre-o-projeto">Sobre</a> •
- <a href="#-funcionalidades">Funcionalidades</a> •
- <a href="#-layout">Layout</a> • 
- <a href="#-como-executar-o-projeto">Como executar</a> • 
- <a href="#-tecnologias">Tecnologias</a> • 
- <a href="#-autor">Autor</a> • 
- <a href="#user-content--licença">Licença</a>
-</p>
+## 📂 Arquitetura de Pastas
 
-<!-- ---------------------------------------------------------------------- -->
-
-<!-- MODELO DE DESCRIÇÃO -->
-## 📄 Descrição do entregável
-
-<!-- EXEMPLO DE DESCRIÇÃO DE UM PROJETO: -->
-- src
-  - assets
-  - style
-  - fontes
-    
-- index.html 
+```md
+┣ 📄 index.html
+┣ 📄 README.md
+┣ 📂src
+┣ ┣📂 styles
+┃ ┣ footer.css
+┃ ┣ global.css
+┃ ┣ header.css
+┃ ┣ main.css
+┃ ┣ section-about-us.css
+┃ ┣ section-hero.css
+┃ ┣ section-pricing.css
+┃ ┣ section-say-clients.css
+┃ ┗ styles.css
+┣ 📂 page
+┃ ┣ footer.html
+┃ ┣ header.html
+┃ ┣ main.html
+┃ ┣ section-about-us.html
+┃ ┣ section-hero.html
+┃ ┣ section-pricing.html
+┃ ┗ section-say-clients.html
+┗ 📂 assets
+┃ ┣ 📂image
+┃ ┃ ┣ card-item-about-us.svg
+┃ ┃ ┣ circulo-cinza.svg
+┃ ┃ ┣ circulo-verde.svg
+┃ ┃ ┣ clients-icon.svg
+┃ ┃ ┣ empty-star.svg
+┃ ┃ ┣ full-star.svg
+┃ ┃ ┣ icn settings .icn-md-2.svg
+┃ ┃ ┣ icn settings .icn-md.svg
+┃ ┃ ┣ main.svg
+┃ ┃ ┣ mapa.svg
+┃ ┃ ┣ persona-girl.svg
+┃ ┃ ┣ persona-man.svg
+┃ ┃ ┗ resumo-projeto-finance.png
+```
 
 ---
 
-<!-- ---------------------------------------------------------------------- -->
-
-<!-- MODELO DESCRIÇÃO SOBRE O PROJETO: -->
 ## 💻 Sobre o projeto
 
-<!-- EXPLICA O MOTIVO DO PROJETO -->
 Este é um projeto colaborativo desenvolvido por 4 integrantes, onde cada um ficou responsável por uma parte específica de uma landing page. O foco principal do projeto é a construção do layout utilizando apenas HTML e CSS, seguindo fielmente o design proposto no Figma.
 
 ---
 
-<!-- ---------------------------------------------------------------------- -->
-
-<!-- EXEMPLO DE LAYOUT: -->
 ## 🎨 Layout
 
-<!-- AQUI VOCÊ PASSA O CAMINHO DA IMAGEM -->
-![Mobile1](https://github.com/MatheusAlvarez/Nexcent/blob/main/src/assets/images/Thumbnail.png)
+![Mobile1](./src/assets/image/resumo-projeto-finance.png)
 
 ---
 
-<!-- ---------------------------------------------------------------------- -->
-
-<!-- MODELO DE COMO EXECUTAR O PROJETO -->
 ## 🚀 Como executar o projeto
 
-1 - Baixar o Projeto <br>
-2 - Abrir em um editor de código<br>
+1 - Baixar o Projeto \
+2 - Abrir em um editor de código \
 3 - Abrir o arquivo index.html
 
-<!-- ---------------------------------------------------------------------- -->
-
-<!-- MODELO DE PRÉ REQUISITOS -->
-### Pré-requisitos
+## Pré-requisitos
 
 Antes de começar, você vai precisar ter instalado em sua máquina o seguinte editor de código:
 [VSCode](https://code.visualstudio.com/)
 
 ---
 
-<!-- ---------------------------------------------------------------------- -->
-
-<!-- MODELO DE TECNOLOGIAS -->
 ## 🛠 Tecnologias
 
 As seguintes ferramentas foram usadas na construção do projeto:
 
-#### **Desenvolvimento**  ([HTML](https://reactjs.org/)) 
+### **Desenvolvimento** [HTML](https://developer.mozilla.org/en-US/docs/Web/HTML), [CSS](https://developer.mozilla.org/en-US/docs/Web/CSS), [GIT](https://git-scm.com/doc)
 
+### **Prototipação** ([Figma](https://www.figma.com/))
 
-#### **Prototipação** ([Figma](https://www.figma.com/))
-
-- **[Protótipo]([https://www.figma.com/file/J1zv4Q8hCFhxhuZE5XINxu/Prototipa%C3%A7%C3%A3o-desafio-Digitalk?t=9EYQVYnf9XIZWWZr-1](https://www.figma.com/design/X0dmBIhUsX9aM6UkGURXPG/Financen---html-finance-web-page?node-id=1479-8880&t=2rg0AqBLsj8CUa85-0))**
+- **[Protótipo utilizado](https://www.figma.com/design/FV5Plfkn4pzoNwq853BgQI/Financen---html-finance-web-page?node-id=1479-801&p=f&t=HgKnodODgkunQ1x3-0)**
 
 ---
 
-<!-- ---------------------------------------------------------------------- -->
-
-<!-- MODELO DE COMO CONTRIBUIR PARA O PROJETO -->
 ## 💪 Como contribuir para o projeto
 
 1. Faça um **fork** do projeto.
 2. Crie uma nova branch com as suas alterações: `git checkout -b my-feature`
 3. Salve as alterações e crie uma mensagem de commit contando o que você fez: `git commit -m "feature: My new feature"`
 4. Envie as suas alterações: `git push origin my-feature`
-> Caso tenha alguma dúvida confira este [guia de como contribuir no GitHub](./CONTRIBUTING.md)
+   > Caso tenha alguma dúvida confira este [guia de como contribuir no GitHub](./CONTRIBUTING.md)
 
 ---
 
-<!-- ---------------------------------------------------------------------- -->
-
-<!-- MODELO DE AUTOR-->
 ## 🦸 Autor
 
-<a href="https://www.linkedin.com/in/gustavo-freitas-83a3a5366/-">
-Gustavo Freitas Dias</a>
-<a href="https://www.linkedin.com/in/gustavo-freitas-83a3a5366/-">
-Gustavo Freitas Dias</a>
-<a href="https://www.linkedin.com/in/gustavo-freitas-83a3a5366/-">
-Gustavo Freitas Dias</a>
-<a href="https://www.linkedin.com/in/gustavo-freitas-83a3a5366/-">
-Gustavo Freitas Dias</a>
- <br />
+Feito por Jonathan Almeida👋🏽 [Entre em contato!](https://www.linkedin.com/in/JonathanASf/)
 
-
----
-
-<!-- ---------------------------------------------------------------------- -->
-
-<!-- MODELO DE LICENÇA -->
-## 📝 Licença
-
-Este projeto esta sobe a licença [MIT](./LICENSE).
+Feito por Wiglefer Lopes👋🏽 [Entre em contato!](https://www.linkedin.com/in/wigleferlopes/)
 
 Feito por Gustavo Freitas Dias👋🏽 [Entre em contato!](https://www.linkedin.com/in/gustavo-freitas-83a3a5366/)
 
+Feito por Wesley Matheus[Entre em contato!](https://www.linkedin.com/in/wesley-matheus-101339355/)
+
+---
+
+## 📝 Licença
+
+Este projeto esta sobe a licença [MIT](https://opensource.org/license/mit).
