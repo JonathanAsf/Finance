@@ -39,7 +39,7 @@ nav a {
 /* Main */
 main {
   background-color: rgba(0, 0, 0, 0.5);
-  color: var(--color-text-color);
+  color: var(--color-light-text-color);
 }
 
 .content-main {
@@ -77,7 +77,7 @@ main {
 }
 
 .button-main a {
-  color: var(--color-text-color);
+  color: var(--color-light-text-color);
   font-size: var(--font-size--btn-text);
   font-weight: var(--font-weight-btn-text);
 }
@@ -87,7 +87,7 @@ main {
 }
 
 .button-secondary {
-  border: 2px solid #252b42;
+  border: 2px solid var(--color-light-text-color);
 }
 
 /* -- Main -- */
