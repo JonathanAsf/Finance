@@ -200,7 +200,7 @@ main {
 .title-client p {
   font-size: var(--font-size--paragraph);
   font-weight: var(--font-weight-paragraph);
-  color: #737373;
+  color: var(--color-second-text);
 }
 
 .personal-client {
@@ -436,10 +436,32 @@ section {
 .mapa img {
   width: 100%;
 }
+
+.end {
+  display: flex;
+  justify-content: center;
+  padding: 30px;
+  margin: 80px 197px;
+  gap: 30px;
+}
+
 .final {
   display: flex;
   flex-direction: column;
   padding: 25px;
+  gap: 25px;
+}
+
+.final h3 {
+  font-size: var(--font-size--h3);
+  font-weight: var(--font-weight-h3);
+}
+
+.final p {
+  font-size: var(--font-size--paragraph);
+  font-weight: var(--font-weight-paragraph);
+  color: var(--color-second-text);
+  max-width: 213;
 }
 
 .fim {
@@ -447,22 +469,21 @@ section {
   flex-direction: column;
   padding: 20px;
   gap: 5px;
+  gap: 10px;
 }
 
-.final img {
-  padding: 20px;
-  width: 23px;
-  display: flex;
+.fim h3 {
+  font-size: var(--font-size--h3);
+  font-weight: var(--font-weight-h3);
 }
 
-.end {
-  display: flex;
-  justify-content: center;
-  padding: 30px;
-  margin: 80px;
+.fim p {
+  font-size: var(--font-size--paragraph);
+  font-weight: var(--font-weight-paragraph);
+  color: var(--color-second-text);
 }
-
 .imgfinal {
   display: flex;
+  gap: 20px;
 }
 /* -- Footer -- */
