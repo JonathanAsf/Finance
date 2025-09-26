@@ -13,7 +13,7 @@
 ## 💻 Sobre o projeto
 
 Este é um projeto colaborativo desenvolvido por 4 integrantes, onde cada um ficou responsável por uma parte específica de uma landing page. O foco principal do projeto é a construção do layout utilizando apenas HTML e CSS, seguindo fielmente o design proposto no Figma.
-
+[Clique aqui para acessar o Site](https://finance-eight-theta.vercel.app/)
 ---
 
 ## 🎨 Layout
